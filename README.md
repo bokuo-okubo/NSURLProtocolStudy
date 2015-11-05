@@ -6,7 +6,7 @@ I am a request hijacker.
 ## setting
 
 ```
-$ cd NSURLProtocolStudy
+$ cd NSURLProtocolStudy # move to the same layer with Podfile
 
 $ pod install
 
