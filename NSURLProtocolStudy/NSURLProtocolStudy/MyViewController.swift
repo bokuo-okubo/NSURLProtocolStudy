@@ -14,9 +14,12 @@ class MyViewController: UIViewController {
         super.viewDidLoad()
         print("hogehoge")
 
-        let frameSizeRect = UIScreen.mainScreen().applicationFrame
+        let frameSizeRect = UIScreen.mainScreen().bounds
         let webView = UIWebView.init(frame: frameSizeRect)
-        webView.loadRequest(NSURLRequest(URL: NSURL(string: "https://www.google.co.jp")!))
+
+        // ローカルのファイルのフルパスを取得する
+        let path : String = NSBundle.mainBundle().pathForResource("index", ofType: "html", inDirectory: "assets/html")!
+        webView.loadRequest(NSURLRequest(URL: NSURL(fileURLWithPath: path))) // TODO　: リソースが取得できなかった時のエラーハンドリング
         self.view.addSubview(webView)
     }
 

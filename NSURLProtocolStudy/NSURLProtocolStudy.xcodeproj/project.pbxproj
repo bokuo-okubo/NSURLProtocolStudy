@@ -12,6 +12,7 @@
 		788766B91BEB509F00A450C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788766B81BEB509F00A450C6 /* Assets.xcassets */; };
 		788766C71BEB509F00A450C6 /* NSURLProtocolStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788766C61BEB509F00A450C6 /* NSURLProtocolStudyTests.swift */; };
 		788766D21BEB509F00A450C6 /* NSURLProtocolStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788766D11BEB509F00A450C6 /* NSURLProtocolStudyUITests.swift */; };
+		78BC19C51BEB76CC001A63CC /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 78BC19C41BEB76CC001A63CC /* assets */; };
 		E64988382C81148A4234FF36 /* Pods_NSURLProtocolStudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BD55637D83F55E565F0EE4 /* Pods_NSURLProtocolStudyTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		788766CD1BEB509F00A450C6 /* NSURLProtocolStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLProtocolStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		788766D11BEB509F00A450C6 /* NSURLProtocolStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLProtocolStudyUITests.swift; sourceTree = "<group>"; };
 		788766D31BEB509F00A450C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BC19C41BEB76CC001A63CC /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		79BD55637D83F55E565F0EE4 /* Pods_NSURLProtocolStudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSURLProtocolStudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FEC3709424EACA50F89F49 /* Pods-NSURLProtocolStudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSURLProtocolStudyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSURLProtocolStudyTests/Pods-NSURLProtocolStudyTests.release.xcconfig"; sourceTree = "<group>"; };
 		DDE87F45CCCC69B60702FACD /* Pods-NSURLProtocolStudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSURLProtocolStudyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSURLProtocolStudyTests/Pods-NSURLProtocolStudyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,10 +102,10 @@
 		788766B01BEB509F00A450C6 /* NSURLProtocolStudy */ = {
 			isa = PBXGroup;
 			children = (
+				78BC19C41BEB76CC001A63CC /* assets */,
 				788766B11BEB509F00A450C6 /* AppDelegate.swift */,
 				788766B31BEB509F00A450C6 /* MyViewController.swift */,
 				788766B81BEB509F00A450C6 /* Assets.xcassets */,
-				78BC19B01BEB6234001A63CC /* resources */,
 				788766BD1BEB509F00A450C6 /* Info.plist */,
 			);
 			path = NSURLProtocolStudy;
@@ -125,29 +127,6 @@
 				788766D31BEB509F00A450C6 /* Info.plist */,
 			);
 			path = NSURLProtocolStudyUITests;
-			sourceTree = "<group>";
-		};
-		78BC19B01BEB6234001A63CC /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				78BC19B11BEB6234001A63CC /* html */,
-				78BC19B21BEB6234001A63CC /* js */,
-			);
-			path = resources;
-			sourceTree = "<group>";
-		};
-		78BC19B11BEB6234001A63CC /* html */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = html;
-			sourceTree = "<group>";
-		};
-		78BC19B21BEB6234001A63CC /* js */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = js;
 			sourceTree = "<group>";
 		};
 		B153B24F9870ABBD5D9656DF /* Frameworks */ = {
@@ -275,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				788766B91BEB509F00A450C6 /* Assets.xcassets in Resources */,
+				78BC19C51BEB76CC001A63CC /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
