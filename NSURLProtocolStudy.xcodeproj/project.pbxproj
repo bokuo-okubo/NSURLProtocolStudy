@@ -103,6 +103,7 @@
 				788766B11BEB509F00A450C6 /* AppDelegate.swift */,
 				788766B31BEB509F00A450C6 /* MyViewController.swift */,
 				788766B81BEB509F00A450C6 /* Assets.xcassets */,
+				78BC19B01BEB6234001A63CC /* resources */,
 				788766BD1BEB509F00A450C6 /* Info.plist */,
 			);
 			path = NSURLProtocolStudy;
@@ -124,6 +125,29 @@
 				788766D31BEB509F00A450C6 /* Info.plist */,
 			);
 			path = NSURLProtocolStudyUITests;
+			sourceTree = "<group>";
+		};
+		78BC19B01BEB6234001A63CC /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				78BC19B11BEB6234001A63CC /* html */,
+				78BC19B21BEB6234001A63CC /* js */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		78BC19B11BEB6234001A63CC /* html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		78BC19B21BEB6234001A63CC /* js */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = js;
 			sourceTree = "<group>";
 		};
 		B153B24F9870ABBD5D9656DF /* Frameworks */ = {
