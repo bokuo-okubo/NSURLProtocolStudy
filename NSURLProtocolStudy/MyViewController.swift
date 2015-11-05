@@ -12,7 +12,12 @@ class MyViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("hogehoge")
+
+        let frameSizeRect = UIScreen.mainScreen().applicationFrame
+        let webView = UIWebView.init(frame: frameSizeRect)
+        webView.loadRequest(NSURLRequest(URL: NSURL(string: "https://www.google.co.jp")!))
+        self.view.addSubview(webView)
     }
 
     override func didReceiveMemoryWarning() {
