@@ -12,13 +12,12 @@ class MyViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hogehoge")
 
         let frameSizeRect = UIScreen.mainScreen().bounds
         let webView = UIWebView.init(frame: frameSizeRect)
 
         // ローカルのファイルのフルパスを取得する
-        let path : String = NSBundle.mainBundle().pathForResource("index", ofType: "html", inDirectory: "assets/html")!
+        let path : String = NSBundle.mainBundle().pathForResource("index", ofType: "html", inDirectory: "assets")!
         webView.loadRequest(NSURLRequest(URL: NSURL(fileURLWithPath: path))) // TODO　: リソースが取得できなかった時のエラーハンドリング
         self.view.addSubview(webView)
     }
