@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7803527E1BEB7DEA00E309EE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 7803527D1BEB7DEA00E309EE /* assets */; };
+		780352801BEB821F00E309EE /* MyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7803527F1BEB821F00E309EE /* MyProtocol.swift */; };
 		788766B21BEB509F00A450C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788766B11BEB509F00A450C6 /* AppDelegate.swift */; };
 		788766B41BEB509F00A450C6 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788766B31BEB509F00A450C6 /* MyViewController.swift */; };
 		788766B91BEB509F00A450C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788766B81BEB509F00A450C6 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		7803527D1BEB7DEA00E309EE /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		7803527F1BEB821F00E309EE /* MyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProtocol.swift; sourceTree = "<group>"; };
 		788766AE1BEB509F00A450C6 /* NSURLProtocolStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLProtocolStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788766B11BEB509F00A450C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		788766B31BEB509F00A450C6 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				7803527D1BEB7DEA00E309EE /* assets */,
 				788766B11BEB509F00A450C6 /* AppDelegate.swift */,
 				788766B31BEB509F00A450C6 /* MyViewController.swift */,
+				7803527F1BEB821F00E309EE /* MyProtocol.swift */,
 				788766B81BEB509F00A450C6 /* Assets.xcassets */,
 				788766BD1BEB509F00A450C6 /* Info.plist */,
 			);
@@ -327,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780352801BEB821F00E309EE /* MyProtocol.swift in Sources */,
 				788766B41BEB509F00A450C6 /* MyViewController.swift in Sources */,
 				788766B21BEB509F00A450C6 /* AppDelegate.swift in Sources */,
 			);

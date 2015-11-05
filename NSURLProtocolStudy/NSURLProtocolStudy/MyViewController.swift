@@ -19,6 +19,10 @@ class MyViewController: UIViewController {
         // ローカルのファイルのフルパスを取得する
         let path = self.setupBundleFilePath()
 
+        // Protocolに使うクラスの指定
+        NSURLProtocol.registerClass(MyProtocol)
+        
+
         webView.loadRequest(NSURLRequest(URL: NSURL(fileURLWithPath: path))) // TODO　: リソースが取得できなかった時のエラーハンドリング
         self.view.addSubview(webView)
     }
