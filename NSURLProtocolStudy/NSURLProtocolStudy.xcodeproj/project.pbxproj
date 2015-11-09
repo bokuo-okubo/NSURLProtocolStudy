@@ -220,6 +220,7 @@
 				TargetAttributes = {
 					788766AD1BEB509F00A450C6 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = A785YS2LKR;
 					};
 					788766C11BEB509F00A450C6 = {
 						CreatedOnToolsVersion = 7.1;
@@ -453,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NSURLProtocolStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bko.NSURLProtocolStudy;
@@ -464,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NSURLProtocolStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bko.NSURLProtocolStudy;

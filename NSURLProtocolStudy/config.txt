@@ -1,0 +1,1 @@
+/usr/bin/xcodebuild -target CustomHTTPProtocol -configuration Debug build CONFIGURATION_BUILD_DIR=./app
